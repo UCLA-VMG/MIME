@@ -24,7 +24,7 @@ A. INTRODUCTION
 
 
 <p align="center">
-  <img width="420" src="figures/teaser.png">
+  <img width="700" src="figures/teaser.png">
 </p>
 
 
