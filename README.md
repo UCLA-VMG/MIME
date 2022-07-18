@@ -1,6 +1,12 @@
 # MIME: Minority Inclusion for Majority Group Enhancement of AI Performance
 
-SETTING UP EXPERIMENTS
+A. INTRODUCTION
+-------------
+Several papers have rightly included minority groups in artificial intelligence (AI) training data to improve test inference for minority groups and/or society-at-large. A society-at-large consists of both minority and majority stakeholders. An oft-held misconception is that minority inclusion does not increase performance for majority groups alone. In this paper, we make the surprising finding that including minority samples can improve test error for the majority group. In other words, minority group inclusion leads to majority group enhancements (MIME) in performance. A theoretical existence proof of the MIME effect is presented and found to be consistent with experimental results on six different datasets.
+
+This GitHub repository provides access to the code used for the primary results of the paper. Please follow the instructions listed out below to generate appropriate results.
+
+B. SETTING UP THE EXPERIMENTS
 ------------
 
 FairFace
@@ -114,7 +120,7 @@ Depending on the dataset, the following sections may need to be changed:
 
 
 
-RUNNING EXPERIMENTS
+C. RUNNING THE EXPERIMENTS
 ---------------------
 1. For each dataset, the file structure is to be created according to the above instructions.
 
