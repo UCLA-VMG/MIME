@@ -1,6 +1,6 @@
 # MIME: Minority Inclusion for Majority Group Enhancement of AI Performance
 
-EXPERIMENTS
+SETTING UP EXPERIMENTS
 ------------
 
 FairFace
