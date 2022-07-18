@@ -3,6 +3,15 @@ Pradyumna Chari, Yunhao Ba, Shreeram Athreya, Achuta Kadambi
 
 University of California, Los Angeles, USA
 
+Citation
+---------
+@InProceedings{chari2022mime,
+      author={Pradyumna Chari and Yunhao Ba and Shreeram Athreya and Achuta Kadambi},
+      title={MIME: Minority Inclusion for Majority Group Enhancement of AI Performance},
+      booktitle={ECCV},
+      year={2022}
+}
+
 A. INTRODUCTION
 -------------
 Project webpage: https://visual.ee.ucla.edu/mime.htm/
