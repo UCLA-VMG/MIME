@@ -1,6 +1,6 @@
 # MIME: Minority Inclusion for Majority Group Enhancement of AI Performance
 
-Experiments
+EXPERIMENTS
 ------------
 
 FairFace
@@ -16,9 +16,6 @@ Fixed model initialization: model_init_2class.pt (to be added by user)
 All requirements should be in the same directory as the training notebook.
 
 Link to dataset: https://github.com/dchen236/FairFace
-
-
-
 
 
 
@@ -117,16 +114,8 @@ Depending on the dataset, the following sections may need to be changed:
 
 
 
-
-
-===============================================================================
-
-
-
-
-
-RUNNING EXPERIMENTS:
--------------------------------
+RUNNING EXPERIMENTS
+---------------------
 1. For each dataset, the file structure is to be created according to the above instructions.
 
 1. For each dataset, the concerned notebook is run across several trials (5 trials for all datasets except the NIH Chest-Xray14 dataset, which is run for 7 trials).
