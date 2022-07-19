@@ -12,7 +12,7 @@ Citation
 
 ```
 @InProceedings{chari2022mime,
-      author={Pradyumna Chari and Yunhao Ba and Shreeram Athreya and Achuta Kadambi},
+      author={Chari, Pradyumna and Ba, Yunhao and Athreya, Shreeram and Kadambi, Achuta},
       title={MIME: Minority Inclusion for Majority Group Enhancement of AI Performance},
       booktitle={ECCV},
       year={2022}
