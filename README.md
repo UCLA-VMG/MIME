@@ -24,7 +24,7 @@ Citation
 
 
 <p align="center">
-  <img width="700" src="figures/teaser.png">
+  <img width="600" src="figures/teaser.png">
 </p>
 
 <!-- <p width="700"> -->
