@@ -69,7 +69,7 @@ Link to dataset: ```https://github.com/dchen236/FairFace```
 
 Pet Images
 -------------
-Notebook for training: PetImages_Model_Training.ipynb
+Notebook for training: ```PetImages_Model_Training.ipynb```
 
 Requirements:
 Training data folder: data
@@ -77,7 +77,7 @@ Fixed model initialization: resnet34_imp_2class.pt (to be added by user)
 
 All requirements should be in the same directory as the training notebook.
 
-We use a manually annotated subset of the original dataset. Link to our annotated dataset: https://drive.google.com/drive/folders/1xH3OsuMrA2UuxqQ8PvqCsyXTIWwBR02L?usp=sharing
+We use a manually annotated subset of the original dataset. Link to our annotated dataset: ```https://drive.google.com/drive/folders/1xH3OsuMrA2UuxqQ8PvqCsyXTIWwBR02L?usp=sharing```
 
 
 
@@ -85,7 +85,7 @@ We use a manually annotated subset of the original dataset. Link to our annotate
 
 UTKFace
 ----------
-Notebook for training: UTKFace_Model_Training.ipynb
+Notebook for training: ```UTKFace_Model_Training.ipynb```
 
 Requirements:
 Training data folder: UTKFace
@@ -93,7 +93,7 @@ Fixed model initialization: model_init_9class.pt (to be added by user)
 
 All requirements should be in the same directory as the training notebook.
 
-Link to dataset: https://susanqq.github.io/UTKFace/ (Aligned and cropped faces)
+Link to dataset: ```https://susanqq.github.io/UTKFace/``` (Aligned and cropped faces)
 
 
 
@@ -101,16 +101,16 @@ Link to dataset: https://susanqq.github.io/UTKFace/ (Aligned and cropped faces)
 
 Chest-Xray14
 ---------------
-Notebook for training: Xray_Model_training.ipynb
+Notebook for training: ```Xray_Model_training.ipynb```
 
 Requirements:
 Data folder paths: data/Atelectasis/Male, data/Atelectasis/Female, data/Pneumothorax/Male, data/Pneumothorax/Female
-Key to the subset of images we have used: Chest-Xray14 dataset details.csv
+Key to the subset of images we have used: ```Chest-Xray14 dataset details.csv```
 Fixed model initialization: resnet34_imp_2class.pt (to be added by user)
 
 All requirements should be in the same directory as the training notebook.
 
-Link to full dataset: https://nihcc.app.box.com/v/ChestXray-NIHCC
+Link to full dataset: ```https://nihcc.app.box.com/v/ChestXray-NIHCC```
 
 
 
@@ -118,7 +118,7 @@ Link to full dataset: https://nihcc.app.box.com/v/ChestXray-NIHCC
 
 Adult (Census)
 ----------------
-Notebook for training: Adult_Model_training.ipynb
+Notebook for training: ```Adult_Model_training.ipynb```
 
 Requirements:
 Training data folder: data (provided)
@@ -126,7 +126,7 @@ Fixed model initialization: model2_init_2class.pt (to be added by the user)
 
 All requirements should be in the same directory as the training notebook.
 
-Dataset provided in the directory (adults.csv)
+Dataset provided in the directory as ```adults.csv```
 
 
 
@@ -134,7 +134,7 @@ Dataset provided in the directory (adults.csv)
 
 UTKFace-Chicken gender classification
 ----------------------------------------------
-Notebook for training: Chicken_Model_training.ipynb
+Notebook for training: ```Chicken_Model_training.ipynb```
 
 Requirements:
 Data folder paths: dataset/humans, data/chicken/male, data/chicken/female
@@ -145,20 +145,20 @@ Fixed model initialization: model_init_2class.pt (to be added by the user)
 
 All requirements should be in the same directory as the training notebook.
 
-Link to (chickens) dataset: https://drive.google.com/drive/folders/1eGq8dWGL0I3rW2B9eJ_casH0_D3x7R73
+Link to (chickens) dataset: ```https://drive.google.com/drive/folders/1eGq8dWGL0I3rW2B9eJ_casH0_D3x7R73```
 
 
 
 
 Plotting the Results
 -----------------------
-plot_results.pynb- Notebook to plot the trends after completion of runs. Instructions to use included in the notebook.
+```plot_results.pynb``` - Notebook to plot the trends after completion of runs. Instructions to use included in the notebook.
 Depending on the dataset, the following sections may need to be changed:
 
 1. All the checkpoints directories for each trial must be located in a directory named 'all_checkpoints'.
-2. The variable named label- guidance provided in notebook comments.
-3. The variables named name_save_majority and name_save_minority- guidance provided in notebook comments.
-4. The definition of the variable l_dash must be changed based on the dataset- guidance provided in notebook comments.
+2. The variable named label - guidance provided in notebook comments.
+3. The variables named name_save_majority and name_save_minority - guidance provided in notebook comments.
+4. The definition of the variable l_dash must be changed based on the dataset - guidance provided in notebook comments.
 
 
 
