@@ -47,23 +47,23 @@ _**Figure 2: When domain gap is small, the MIME effect holds. In the presence of
 ------------
 This GitHub repository provides access to the code used for the primary results of the paper.
 
-First, please install the necessary dependencies by using the provided requirements.txt file. 
+First, please install the necessary dependencies by using the provided ```requirements.txt``` file. 
 
 Then, please follow the instructions listed out below to set up experiments for the six datasets and generate appropriate results.
 
 FairFace
 ----------
-Notebook for training: FairFace_Model_Training.ipynb
+Notebook for training: ```FairFace_Model_Training.ipynb```
 
 Requirements:
-Train labels csv file: fairface_label_train.csv
-Test labels csv file: fairface_label_val.csv
+Train labels csv file: ```fairface_label_train.csv```
+Test labels csv file: ```fairface_label_val.csv```
 Images: fairface-img-margin025-trainval containing the images.
 Fixed model initialization: model_init_2class.pt (to be added by user)
 
 All requirements should be in the same directory as the training notebook.
 
-Link to dataset: https://github.com/dchen236/FairFace
+Link to dataset: ```https://github.com/dchen236/FairFace```
 
 
 
