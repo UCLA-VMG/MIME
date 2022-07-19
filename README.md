@@ -35,6 +35,15 @@ Several papers have rightly included minority groups in artificial intelligence 
 
 This GitHub repository provides access to the code used for the primary results of the paper. Please follow the instructions listed out below to generate appropriate results.
 
+Results
+--------
+<p align="center">
+  <img width="900" src="figures/results.png">
+</p>
+
+_**Figure 2: When domain gap is small, the MIME effect holds. In the presence of large domain gap, MIME effect is absent.** On five datasets, majority performance is maximized with some inclusion of minorities. All experiments are run for several trials and realizations. On dataset six, the gender classification task is rescoped to occur in a high domain gap setting. The majority group is chickens and the minority group is humans. Here, the MIME effect is absent. These observations validate our proposed theory._
+
+
 B. SETTING UP THE EXPERIMENTS
 ------------
 
