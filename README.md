@@ -56,10 +56,10 @@ FairFace
 Notebook for training: ```FairFace_Model_Training.ipynb```
 
 Requirements:
-Train labels csv file: ```fairface_label_train.csv```
-Test labels csv file: ```fairface_label_val.csv```
-Images: fairface-img-margin025-trainval containing the images.
-Fixed model initialization: model_init_2class.pt (to be added by user)
+* Train labels csv file: ```fairface_label_train.csv```
+* Test labels csv file: ```fairface_label_val.csv```
+* Images: fairface-img-margin025-trainval containing the images.
+* Fixed model initialization: model_init_2class.pt (to be added by user)
 
 All requirements should be in the same directory as the training notebook.
 
@@ -72,8 +72,8 @@ Pet Images
 Notebook for training: ```PetImages_Model_Training.ipynb```
 
 Requirements:
-Training data folder: data
-Fixed model initialization: resnet34_imp_2class.pt (to be added by user)
+* Training data folder: data
+* Fixed model initialization: resnet34_imp_2class.pt (to be added by user)
 
 All requirements should be in the same directory as the training notebook.
 
@@ -88,8 +88,8 @@ UTKFace
 Notebook for training: ```UTKFace_Model_Training.ipynb```
 
 Requirements:
-Training data folder: UTKFace
-Fixed model initialization: model_init_9class.pt (to be added by user)
+* Training data folder: UTKFace
+* Fixed model initialization: model_init_9class.pt (to be added by user)
 
 All requirements should be in the same directory as the training notebook.
 
@@ -104,9 +104,9 @@ Chest-Xray14
 Notebook for training: ```Xray_Model_training.ipynb```
 
 Requirements:
-Data folder paths: data/Atelectasis/Male, data/Atelectasis/Female, data/Pneumothorax/Male, data/Pneumothorax/Female
-Key to the subset of images we have used: ```Chest-Xray14 dataset details.csv```
-Fixed model initialization: resnet34_imp_2class.pt (to be added by user)
+* Data folder paths: data/Atelectasis/Male, data/Atelectasis/Female, data/Pneumothorax/Male, data/Pneumothorax/Female
+* Key to the subset of images we have used: ```Chest-Xray14 dataset details.csv```
+* Fixed model initialization: resnet34_imp_2class.pt (to be added by user)
 
 All requirements should be in the same directory as the training notebook.
 
@@ -121,8 +121,8 @@ Adult (Census)
 Notebook for training: ```Adult_Model_training.ipynb```
 
 Requirements:
-Training data folder: data (provided)
-Fixed model initialization: model2_init_2class.pt (to be added by the user)
+* Training data folder: data (provided)
+* Fixed model initialization: model2_init_2class.pt (to be added by the user)
 
 All requirements should be in the same directory as the training notebook.
 
@@ -137,11 +137,10 @@ UTKFace-Chicken gender classification
 Notebook for training: ```Chicken_Model_training.ipynb```
 
 Requirements:
-Data folder paths: dataset/humans, data/chicken/male, data/chicken/female
-dataset/humans is the UTKFace dataset folder (renamed to 'humans')
-dataset/chicken is the Chicken gender dataset folder, with cock renamed to male, hen renamed to female. Train and test splits are combined and any redundant files are removed.
-
-Fixed model initialization: model_init_2class.pt (to be added by the user)
+* Data folder paths: dataset/humans, data/chicken/male, data/chicken/female
+* dataset/humans is the UTKFace dataset folder (renamed to 'humans')
+* dataset/chicken is the Chicken gender dataset folder, with cock renamed to male, hen renamed to female. Train and test splits are combined and any redundant files are removed.
+* Fixed model initialization: model_init_2class.pt (to be added by the user)
 
 All requirements should be in the same directory as the training notebook.
 
