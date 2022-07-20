@@ -1,7 +1,7 @@
 # MIME: Minority Inclusion for Majority Group Enhancement of AI Performance
 Pradyumna Chari, Yunhao Ba, Shreeram Athreya, Achuta Kadambi
 
-Department of ECE, UCLA, USA
+UCLA, USA
 
 Project webpage
 ----------------
